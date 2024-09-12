@@ -39,10 +39,17 @@ export default function IndexPage() {
 
   if (!influencer) {
     return (
-      <div>
-        Este posibil ca URL-ul pe care l-ai introdus să nu aparțină unui
-        influencer
-      </div>
+      <DefaultLayout>
+        <section className="flex flex-col h-[full] text-center items-center justify-center gap-4 py-8 md:py-10">
+          <h1>
+            Este posibil ca URL-ul să nu aparțină unui influencer.
+            <br />
+            Dacă ai primit un pachet de la noi, încearcă să accesezi
+            https://nutrinoos-influencer-page.vercel.app/*prenumele tău cu
+            litere mici*
+          </h1>
+        </section>
+      </DefaultLayout>
     );
   }
 
