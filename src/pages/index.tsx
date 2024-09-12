@@ -14,41 +14,7 @@ import {
   useDisclosure,
   Image,
 } from "@nextui-org/react";
-
-interface InfluencerDataItem {
-  param: string;
-  name: string;
-  discountCode: string;
-  products: { image: string; name: string; description: string }[];
-}
-
-const InfluencerData: InfluencerDataItem[] = [
-  {
-    param: "raluca",
-    name: "Raluca",
-    discountCode: "raluca10",
-    products: [
-      {
-        image: "/baton.png",
-        name: "Baton",
-        description:
-          " Bucură-te de echilibrul perfect între bunăstare și răsfăț cu gustarea Chlorella. Bogată în fier natural și proteine, această combinație delicioasă de pudră de chlorella și cacao criollo combate oboseala, oferindu-ți în același timp o plăcere gustativă, pentru o pauză sănătoasă care îți redă energia și vitalitatea.",
-      },
-      {
-        image: "/cafeabb.png",
-        name: "Cafea",
-        description:
-          " Bucură-te de echilibrul perfect între bunăstare și răsfăț cu gustarea Chlorella. Bogată în fier natural și proteine, această combinație delicioasă de pudră de chlorella și cacao criollo combate oboseala, oferindu-ți în același timp o plăcere gustativă, pentru o pauză sănătoasă care îți redă energia și vitalitatea.",
-      },
-      {
-        image: "/fpp.png",
-        name: "Formula pentru par",
-        description:
-          " Bucură-te de echilibrul perfect între bunăstare și răsfăț cu gustarea Chlorella. Bogată în fier natural și proteine, această combinație delicioasă de pudră de chlorella și cacao criollo combate oboseala, oferindu-ți în același timp o plăcere gustativă, pentru o pauză sănătoasă care îți redă energia și vitalitatea.",
-      },
-    ],
-  },
-];
+import { InfluencerData } from "@/influencers/influencers";
 
 export default function IndexPage() {
   const lottieRef = useRef<any>(null);
@@ -82,7 +48,7 @@ export default function IndexPage() {
 
   return (
     <DefaultLayout>
-      <section className="flex flex-col text-center items-center justify-center gap-4 py-8 md:py-10">
+      <section className="flex flex-col h-[100vh] text-center items-center justify-center gap-4 py-8 md:py-10">
         <Image src="/logo.png" className="w-[200px]" />
         <h1 className="text-[50px] sm:text-[65px] md:text-[80px]">
           Dragă {influencer.name}, ne bucurăm să ne vedem

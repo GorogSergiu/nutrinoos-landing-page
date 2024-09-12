@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+  background-color: #113628;
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
   font-weight: 400;
