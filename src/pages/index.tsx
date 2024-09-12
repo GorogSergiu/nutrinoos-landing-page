@@ -41,7 +41,7 @@ export default function IndexPage() {
     return (
       <DefaultLayout>
         <section className="flex flex-col h-[full] text-center items-center justify-center gap-4 py-8 md:py-10">
-          <h1>
+          <h1 className="text-[30px] sm:text-[40px] md:text-[50px]">
             Este posibil ca URL-ul să nu aparțină unui influencer.
             <br />
             Dacă ai primit un pachet de la noi, încearcă să accesezi
