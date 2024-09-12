@@ -4,6 +4,16 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { useParams } from "react-router-dom";
+import Box from "../box.json";
+import {
+  Modal,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  useDisclosure,
+  Image,
+} from "@nextui-org/react";
 
 interface InfluencerDataItem {
   param: string;
@@ -40,19 +50,13 @@ const InfluencerData: InfluencerDataItem[] = [
   },
 ];
 
-import Box from "../box.json";
-import {
-  Modal,
-  ModalContent,
-  ModalHeader,
-  ModalBody,
-  useDisclosure,
-  Image,
-} from "@nextui-org/react";
-
 export default function IndexPage() {
   const lottieRef = useRef<any>(null);
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
+  const { param } = useParams<{ param: string }>();
+  const influencer = InfluencerData.find(
+    (influencer) => influencer.param === param
+  );
 
   const handleClick = () => {
     if (lottieRef.current) {
@@ -67,12 +71,21 @@ export default function IndexPage() {
     }, 1000);
   };
 
+  if (!influencer) {
+    return (
+      <div>
+        Este posibil ca URL-ul pe care l-ai introdus să nu aparțină unui
+        influencer
+      </div>
+    );
+  }
+
   return (
     <DefaultLayout>
       <section className="flex flex-col text-center items-center justify-center gap-4 py-8 md:py-10">
         <Image src="/logo.png" className="w-[200px]" />
         <h1 className="text-[50px] sm:text-[65px] md:text-[80px]">
-          Dragă {InfluencerData[0].name}, ne bucurăm să ne vedem
+          Dragă {influencer.name}, ne bucurăm să ne vedem
         </h1>
         <div className="flex flex-col items-center justify-center gap-2">
           <p className="text-[24px]">
@@ -114,7 +127,7 @@ export default function IndexPage() {
                   </ModalHeader>
                   <ModalBody>
                     <div className="flex flex-col md:flex-row justify-center items-center gap-10 text-[black]">
-                      {InfluencerData[0].products.map((item) => (
+                      {influencer.products.map((item) => (
                         <div>
                           <Image src={item.image} className="w-[600px]" />
                           <div className="text-center text-[20px] font-[800] mt-[10px] mb-[10px]">
@@ -132,7 +145,7 @@ export default function IndexPage() {
         </div>
         <div>
           <p className="text-[28px]">Îți oferim și un cod de 10% reducere</p>
-          <p className="text-[46px]">{InfluencerData[0].discountCode}</p>
+          <p className="text-[46px]">{influencer.discountCode}</p>
           <p className="text-[28px]">Îl poți dărui la cine dorești</p>
         </div>
       </section>
