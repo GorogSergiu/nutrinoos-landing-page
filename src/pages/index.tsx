@@ -105,7 +105,7 @@ export default function IndexPage() {
                     <div className="flex flex-col md:flex-row justify-center items-center gap-10 text-[#FFFAF6]">
                       {influencer.products.map((item) => (
                         <div className="flex flex-col justify-center items-center">
-                          <div className="w-[300px] h-[300px] md:w-[150px] md:h-[150px]">
+                          <div className="w-[200px] h-[200px] md:w-[150px] md:h-[150px]">
                             <Image src={item.image} />
                           </div>
                           <div className="text-center text-[20px] font-[800] mt-[10px] mb-[10px]">
