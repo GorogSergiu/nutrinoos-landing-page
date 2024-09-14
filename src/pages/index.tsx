@@ -58,7 +58,7 @@ export default function IndexPage() {
       <section className="flex flex-col h-[full] text-center items-center justify-center gap-4 py-8 md:py-10">
         <Image src="/logo.png" className="w-[200px]" />
         <h1 className="text-[50px] sm:text-[65px] md:text-[80px]">
-          Dragă {influencer.name}, ne bucurăm să ne vedem
+          dragă {influencer.name}, ne bucurăm să ne vedem
         </h1>
         <div className="flex flex-col items-center justify-center gap-2">
           <p className="text-[24px]">
