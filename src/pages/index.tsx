@@ -13,6 +13,8 @@ import {
   ModalBody,
   useDisclosure,
   Image,
+  Button,
+  Link,
 } from "@nextui-org/react";
 import { InfluencerData } from "@/influencers/influencers";
 
@@ -57,8 +59,8 @@ export default function IndexPage() {
     <DefaultLayout>
       <section className="flex flex-col h-[full] text-center items-center justify-center gap-4 py-8 md:py-10">
         <Image src="/logo.png" className="w-[200px] bg-[#113628] p-[20px]" />
-        <h1 className="text-[50px] sm:text-[65px] md:text-[80px] leading-[1em] mt-[50px] mb-[10px]">
-          dragă {influencer.name}, ne bucurăm să ne vedem
+        <h1 className="text-[50px] sm:text-[65px] md:text-[80px] leading-[1.2em] mt-[50px] mb-[10px]">
+          dragă {influencer.name}, abia așteptăm să vezi ce ți-am pregătit!
         </h1>
         <div className="flex flex-col items-center justify-center gap-2">
           <p className="text-[24px]">
@@ -101,12 +103,23 @@ export default function IndexPage() {
                   <ModalBody>
                     <div className="flex flex-col md:flex-row justify-center items-center gap-10 text-[#FFFAF6]">
                       {influencer.products.map((item) => (
-                        <div>
-                          <Image src={item.image} className="w-[600px]" />
+                        <div className="flex flex-col justify-center items-center">
+                          <div className="w-[150px] h-[150px]">
+                            <Image src={item.image} />
+                          </div>
                           <div className="text-center text-[20px] font-[800] mt-[10px] mb-[10px]">
                             {item.name}
                           </div>
                           <div className="text-center">{item.description}</div>
+                          <Button
+                            as={Link}
+                            target="_blank"
+                            variant="bordered"
+                            className="text-[#FFFAF6] mt-[15px]"
+                            href={item.url}
+                          >
+                            Vezi pe site
+                          </Button>
                         </div>
                       ))}
                     </div>
@@ -117,9 +130,12 @@ export default function IndexPage() {
           </Modal>
         </div>
         <div>
-          <p className="text-[28px]">îți oferim și un cod de 10% reducere</p>
-          <p className="text-[46px] text-[#11DB20]">{influencer.discountCode}</p>
-          <p className="text-[28px]">îl poți dărui la cine dorești</p>
+          <p className="text-[28px]">ți-am personalizat un cod de 10% reducere</p>
+          <p className="text-[46px] text-[#11DB20]">
+            {influencer.discountCode}
+          </p>
+          <p className="text-[28px]">pe care îl poți dărui comunității tale</p>
+          <p className="text-[18px]">codul este valabil până în data de 31/10/2024</p>
         </div>
       </section>
     </DefaultLayout>
