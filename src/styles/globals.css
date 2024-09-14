@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 body {
-  background-color: #FFFAF6;
+  background-color: #fffaf6;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: #055D4B;
+  color: #113628;
 }

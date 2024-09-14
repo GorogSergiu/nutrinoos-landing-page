@@ -56,15 +56,15 @@ export default function IndexPage() {
   return (
     <DefaultLayout>
       <section className="flex flex-col h-[full] text-center items-center justify-center gap-4 py-8 md:py-10">
-        <Image src="/logo.png" className="w-[200px]" />
-        <h1 className="text-[50px] sm:text-[65px] md:text-[80px]">
+        <Image src="/logo.png" className="w-[200px] bg-[#113628] p-[20px]" />
+        <h1 className="text-[50px] sm:text-[65px] md:text-[80px] leading-[1em] mt-[50px] mb-[10px]">
           dragă {influencer.name}, ne bucurăm să ne vedem
         </h1>
         <div className="flex flex-col items-center justify-center gap-2">
           <p className="text-[24px]">
-            Deschide și citește despre produsele tale
+            deschide și citește despre produsele tale
           </p>
-          <FontAwesomeIcon icon={faArrowDown} color="white" size="2xl" />
+          <FontAwesomeIcon icon={faArrowDown} color="#113628" size="2xl" />
           <motion.div
             onClick={handleDelayedOpen}
             className="box"
@@ -88,18 +88,18 @@ export default function IndexPage() {
           <Modal
             isOpen={isOpen}
             onOpenChange={onOpenChange}
-            className="bg-[#8ACE00] p-[50px]"
+            className="bg-[#113628] p-[50px]"
             size="5xl"
             scrollBehavior={"inside"}
           >
             <ModalContent>
               {() => (
                 <>
-                  <ModalHeader className="flex flex-col text-[black] font-[800]">
+                  <ModalHeader className="flex flex-col text-[#FFFAF6] font-[800]">
                     Produsele tale
                   </ModalHeader>
                   <ModalBody>
-                    <div className="flex flex-col md:flex-row justify-center items-center gap-10 text-[black]">
+                    <div className="flex flex-col md:flex-row justify-center items-center gap-10 text-[#FFFAF6]">
                       {influencer.products.map((item) => (
                         <div>
                           <Image src={item.image} className="w-[600px]" />
@@ -117,9 +117,9 @@ export default function IndexPage() {
           </Modal>
         </div>
         <div>
-          <p className="text-[28px]">Îți oferim și un cod de 10% reducere</p>
-          <p className="text-[46px]">{influencer.discountCode}</p>
-          <p className="text-[28px]">Îl poți dărui la cine dorești</p>
+          <p className="text-[28px]">îți oferim și un cod de 10% reducere</p>
+          <p className="text-[46px] text-[#11DB20]">{influencer.discountCode}</p>
+          <p className="text-[28px]">îl poți dărui la cine dorești</p>
         </div>
       </section>
     </DefaultLayout>
