@@ -42,7 +42,8 @@ export default function IndexPage() {
   if (!influencer) {
     return (
       <DefaultLayout>
-        <section className="flex flex-col h-[full] text-center items-center justify-center gap-4 py-8 md:py-10">
+        <section className="flex flex-col h-[100vh] text-center items-center justify-center gap-4 py-8 md:py-10">
+          <Image src="/logo.png" className="w-[200px] bg-[#113628] p-[20px]" />
           <h1 className="text-[30px] sm:text-[40px] md:text-[50px]">
             Este posibil ca URL-ul să nu aparțină unui influencer.
             <br />
@@ -130,12 +131,16 @@ export default function IndexPage() {
           </Modal>
         </div>
         <div>
-          <p className="text-[28px]">ți-am personalizat un cod de 10% reducere</p>
+          <p className="text-[28px]">
+            ți-am personalizat un cod de 10% reducere
+          </p>
           <p className="text-[46px] text-[#11DB20]">
             {influencer.discountCode}
           </p>
           <p className="text-[28px]">pe care îl poți dărui comunității tale</p>
-          <p className="text-[18px]">codul este valabil până în data de 31/10/2024</p>
+          <p className="text-[18px]">
+            codul este valabil până în data de 31/10/2024
+          </p>
         </div>
       </section>
     </DefaultLayout>
