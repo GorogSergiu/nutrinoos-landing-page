@@ -43,7 +43,13 @@ export default function IndexPage() {
     return (
       <DefaultLayout>
         <section className="flex flex-col h-[100vh] text-center items-center justify-center gap-4 py-8 md:py-10">
-          <Image src="/logo.png" className="w-[200px] bg-[#113628] p-[20px]" />
+          <Image
+            src="/logo.png"
+            onClick={() => {
+              window.location.href = "https://www.nutrinoos.ro/";
+            }}
+            className="w-[200px] bg-[#113628] p-[20px]"
+          />
           <h1 className="text-[30px] sm:text-[40px] md:text-[50px]">
             Este posibil ca URL-ul să nu aparțină unui influencer.
             <br />
@@ -59,7 +65,13 @@ export default function IndexPage() {
   return (
     <DefaultLayout>
       <section className="flex flex-col h-[full] text-center items-center justify-center gap-4 py-8 md:py-10">
-        <Image src="/logo.png" className="w-[200px] bg-[#113628] p-[20px]" />
+        <Image
+          src="/logo.png"
+          className="w-[200px] bg-[#113628] p-[20px] cursor-pointer"
+          onClick={() => {
+            window.open("https://www.nutrinoos.ro/", "_blank");
+          }}
+        />
         <h1 className="text-[50px] sm:text-[65px] md:text-[80px] leading-[1.2em] mt-[50px] mb-[10px]">
           dragă {influencer.name}, abia așteptăm să vezi ce ți-am pregătit!
         </h1>
