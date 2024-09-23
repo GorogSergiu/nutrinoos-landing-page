@@ -110,11 +110,11 @@ export default function IndexPage() {
             <ModalContent>
               {() => (
                 <>
-                  <ModalHeader className="flex flex-col text-[#FFFAF6] font-[800]">
+                  <ModalHeader className="flex flex-col text-[#FFFAF6] justify-center items-center font-[800]">
                     Produsele tale
                   </ModalHeader>
                   <ModalBody>
-                    <div className="flex flex-col md:flex-row justify-center items-center gap-10 text-[#FFFAF6]">
+                    <div className="flex flex-col md:flex-row justify-center items-start gap-10 text-[#FFFAF6]">
                       {influencer.products.map((item) => (
                         <div className="flex flex-col justify-center items-center">
                           <div className="w-[200px] h-[200px] md:w-[150px] md:h-[150px]">
