@@ -141,7 +141,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/acidfolic.png",
         name: "Acid Folic",
         description:
-          "Acid folic (vitamina B9) etichetat Quatrefolic®, în forma activă 5-MTHF. Benefic atât pentru femei, cât și pentru bărbați, în perioada concepției și în primul trimestru de sarcină.",
+          "Acidul folic (sau vitamina B9) este esențial pentru multe funcții ale organismului și este important pe tot parcursul vieții.",
         url: "https://www.nutrinoos.ro/produse/acid-folic/",
       },
       {
@@ -183,7 +183,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/acidfolic.png",
         name: "Acid Folic",
         description:
-          "Acid folic (vitamina B9) etichetat Quatrefolic®, în forma activă 5-MTHF. Benefic atât pentru femei, cât și pentru bărbați, în perioada concepției și în primul trimestru de sarcină.",
+          "Acidul folic (sau vitamina B9) este esențial pentru multe funcții ale organismului și este important pe tot parcursul vieții.",
         url: "https://www.nutrinoos.ro/produse/acid-folic/",
       },
       {
