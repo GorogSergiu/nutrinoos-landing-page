@@ -36,7 +36,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -78,7 +78,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -120,7 +120,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -162,7 +162,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -204,7 +204,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -246,7 +246,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -288,7 +288,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -330,7 +330,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -372,7 +372,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -414,7 +414,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
@@ -456,7 +456,7 @@ export const InfluencerData: InfluencerDataItem[] = [
         image: "/batonpolen.png",
         name: "Baton cu polen",
         description:
-          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie, oferind un moment de vitalitate și bunăstare.",
+          "Bucură-te de armonia ideală între plăcere și sănătate cu gustarea Pollenia. Combinând polen, nuci caju și caise, această gustare cu note florale este o sursă naturală de energie și fier, oferind un moment de vitalitate și bunăstare.",
         url: "https://www.nutrinoos.ro/produse/baton-cu-polen/",
       },
       {
